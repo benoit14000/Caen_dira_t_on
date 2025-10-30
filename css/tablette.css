@@ -1,0 +1,58 @@
+@media only screen and (max-width: 992px)
+{
+
+    /*FILTERS*/
+
+    .section_filters{
+        display:block;
+        margin-left: 0;
+    }
+
+    .section_filters h2{
+        margin-top: 45px;
+        margin-left: 10px;
+    }
+
+
+    .container_filter{
+        gap: 13px
+    }
+
+
+     /*GENERAL SECTION HEBERGEMENTS_POPULAIRES*/
+
+    .hebergements_populaires{
+        display: flex;
+        flex-direction: column-reverse;
+		gap: 25px;
+    }
+
+    article, aside{
+        width: 100%;
+    }
+	
+	 .container_cards_populaires{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container_cards_populaires a{
+        width: 31%;
+    }
+
+    .card_populaires img{
+        width: 100px;
+    }
+	
+	/*FOOTER*/
+
+    footer{
+
+		width : 100%;
+    }
+
+    footer div{
+        width: 100%;
+    }
+
+}
